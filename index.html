@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <form action="index.html" method="get" target="_parent" >
+
+
+        <input type="text" name= nazovfilmu required placeholder="Názov filmu" id="nazov">
+        <input type="text" name= rokvydania required placeholder="Rok vydania filmu" id="rok">
+        <input type="text" name= herec required placeholder="Herec" id="herec">
+        <input type="button" onclick=novyFilm() value= "Vložiť film">
+        <input type="button" onclick=odstranPosledny() value= "Odstáň posledný">
+        <input type="button"onclick=novePole() value= "Vymaž celé pole">
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
